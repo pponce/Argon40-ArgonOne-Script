@@ -26,7 +26,7 @@ You can find them here:
    ```
    mkdir /home/pi/myRetroPieScripts && cd /home/pi/myRetroPieScripts
    wget https://raw.githubusercontent.com/crcerror/ES-generic-shutdown/master/multi_switch.sh && chmod +x multi_switch.sh
-   curl https://github.com/pponce/Argon40-ArgonOne-Script/raw/master/source/argon1.sh | bash
+   curl https://raw.githubusercontent.com/pponce/Argon40-ArgonOne-Script/master/source/argon1.sh | bash
    ```
 
 3. Reboot.
