@@ -82,7 +82,3 @@ Thanks to [Argon 40](https://www.argon40.com "https://www.argon40.com") for buil
 crcerror for creating this great shutdown script for retroPie users [ES-generic-shutdown](https://github.com/crcerror/ES-generic-shutdown).
 
 ---
-
-### Alternatives
-
-A fan control daemon written in Rust for Argon One v2 case: [JhnW/ArgonOne-Native-Fan-Controller](https://github.com/JhnW/ArgonOne-Native-Fan-Controller "JhnW/ArgonOne-Native-Fan-Controller")
