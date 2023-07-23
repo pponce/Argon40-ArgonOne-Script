@@ -2,8 +2,8 @@
 
 I've been running a retroPie install on my rPi 4 using the Argon One V2 case with ssd add on.  
 I learned that Emulation Station needs to shut down gracefully in order to save some changes propperly.
-I learned about the wonderful [ES Generic shut down script](https://github.com/crcerror/ES-generic-shutdown).
-I updated the Argon One script to use the ES Shutdown script for both shutdown and reboot commands.
+I also learned about the wonderful [ES Generic shut down script](https://github.com/crcerror/ES-generic-shutdown).
+So I updated the Argon One script to use the ES Shutdown script for both the shutdown and reboot commands.
 
 **I am in no way affiliated with [Argon 40](https://www.argon40.com "https://www.argon40.com"), I only use their cases as an end user.**
 
