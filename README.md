@@ -1,13 +1,11 @@
 # Argon ONE (V2) Pi 4 Script for RetroPie
 
-I have been using the [Argon ONE (V2) Case for Raspberry Pi 4](https://www.argon40.com/collections/raspberry-pi-cases "Argon ONE (V2) Case for Raspberry Pi 4") for a long time and I am very happy with it.
-
-To be able to use the case to the full extent, it is recommended to install the [script](https://download.argon40.com/argon1.sh "https://download.argon40.com/argon1.sh") offered by [Argon 40](https://www.argon40.com "https://www.argon40.com").
-
-I have saved a copy here along with the instructions to have a copy in case [Argon 40](https://www.argon40.com "https://www.argon40.com") no longer offers it themselves.
+I've been running a retroPie install on my rPi 4 using the Argon One V2 case with ssd add on.  
+I learned that Emulation Station needs to shut down gracefully in order to save some changes propperly.
+I learned about the wonderful [ES Generic shut down script](https://github.com/crcerror/ES-generic-shutdown).
+I updated the Argon One script to use the ES Shutdown script for both shutdown and reboot commands.
 
 **I am in no way affiliated with [Argon 40](https://www.argon40.com "https://www.argon40.com"), I only use their cases as an end user.**
-
 
 You can find them here:
 * Argon 40 Website: [https://www.argon40.com](https://www.argon40.com "https://www.argon40.com")
@@ -23,7 +21,7 @@ You can find them here:
 ### Installing
 
 1. Open "Terminal" in Raspbian.
-2. Type the commands below in the "Terminal" to install
+2. Type the three commands below, pressing enter after each, to install
 
    ```
    mkdir /home/pi/myRetroPieScripts && cd /home/pi/myRetroPieScripts
