@@ -75,6 +75,8 @@ Always reboot after changing any configuration or uninstallation for the revised
 
 Thanks to [Argon 40](https://www.argon40.com "https://www.argon40.com") for building these great Raspberry Pi Cases.
 
+crcerror for creating this great shutdown script for retroPie users [ES-generic-shutdown](https://github.com/crcerror/ES-generic-shutdown).
+
 ---
 
 ### Alternatives
