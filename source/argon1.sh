@@ -167,11 +167,13 @@ echo '		while GPIO.input(shutdown_pin) == GPIO.HIGH:' >> $powerbuttonshutdownscr
 echo '			time.sleep(0.01)' >> $powerbuttonshutdownscript
 echo '			pulsetime += 1' >> $powerbuttonshutdownscript
 echo '		if pulsetime >=2 and pulsetime <=3:' >> $powerbuttonshutdownscript
+echo '			os.system("bash /home/pi/myRetroPieScripts/multi_switch.sh --es-closeemu")' >> $powerbuttonshutdownscript
 echo '			os.system("bash /home/pi/myRetroPieScripts/multi_switch.sh --es-reboot")' >> $powerbuttonshutdownscript
-echo '			#os.system("reboot")' >> $powerbuttonshutdownscript
+echo '			os.system("reboot")' >> $powerbuttonshutdownscript
 echo '		elif pulsetime >=4 and pulsetime <=5:' >> $powerbuttonshutdownscript
+echo '			os.system("bash /home/pi/myRetroPieScripts/multi_switch.sh --es-closeemu")' >> $powerbuttonshutdownscript
 echo '			os.system("bash /home/pi/myRetroPieScripts/multi_switch.sh --es-poweroff")' >> $powerbuttonshutdownscript
-echo '			#os.system("shutdown now -h")' >> $powerbuttonshutdownscript
+echo '			os.system("shutdown now -h")' >> $powerbuttonshutdownscript
 
 echo 'def get_fanspeed(tempval, configlist):' >> $powerbuttonscript
 echo '	for curconfig in configlist:' >> $powerbuttonscript
